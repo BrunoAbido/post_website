@@ -58,3 +58,98 @@ h1 {
     letter-spacing: 0.1em; 
     color: rgba(58, 79, 154, 1);
   }
+
+  .card_post {
+    display: flex;
+    grid-template-columns: 25px 25px 25px;
+    width: 409px;
+    height: 455px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    top: 422px;
+    left: 321px;
+
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: rgba(58, 79, 154, 1);
+}
+
+.post_title {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    top: 293px;
+    left: 29px;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(58, 79, 154, 1);
+}
+
+.text_post {
+    position: absolute;
+    width: 359px;
+    height: 109px;
+    top: 328px;
+    left: 29px;
+
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;   
+}
+
+.card_img {
+    width: 409px;
+    height: 273px;
+}
+
+.card_one {
+    position: absolute;
+    top: 260px;
+    left: 79px;
+}
+
+.card_two{
+    position: absolute;
+    top: 260px;
+    left:551px;
+}
+
+.card_three{
+    position: absolute;
+    top: 260px;
+    left:1023px;
+}
+
+.card_four{
+    position: absolute;
+    top: 773px;
+    left:84px;
+}
+
+.card_five{
+    position: absolute;
+    top: 773px;
+    left:551px;
+}
+
+.card_six{
+    position: absolute;
+    top: 773px;
+    left:1027px;
+}
