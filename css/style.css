@@ -141,15 +141,17 @@ main {
     gap: 63px;
 }
 
-.button {
-   
+.button{
+    position: absolute ;
+    border-radius: 100%;
+    background-color: #32325d;
+    left: 34px;
+    top: 82px;
     width: 75px;
     height: 75px;
-    border: 0.3px;
-    background-color: linear-gradient(0deg, #32325D, #32325D),
+    border: none;
+    cursor: pointer;
 }
-
-
 
 .arrow_image {
     width: 49px;
@@ -167,6 +169,8 @@ main {
 .post_title_section {
     display: flex;
     flex-direction: column;
+    padding-top: 22px;
+    width: 100%;
     margin-bottom: 20;
     font-size: 20px;
     font-weight: 500;
@@ -181,7 +185,8 @@ main {
 }
 
 .text_section {
-    padding: 60px;
+    padding-top: 20px;
+    padding-left: 60px;
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
@@ -204,16 +209,6 @@ main {
     line-height: 20px;
     letter-spacing: 0.1em;
     padding-inline: 55px;
-}
-
-.review_1 {
-}
-
-.review_2 {
-}
-
-.review_3 {
-
 }
 
 em {
