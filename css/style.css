@@ -153,3 +153,130 @@ a {
     top: 773px;
     left:1027px;
 }
+
+/* Post section starts here */
+
+.main_post_section {
+    position:static;
+    width: 1512px;
+    height: 982px;
+    top: -469px;
+    left: 984px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.button {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 82px;
+    left: 34px;
+    border: 0.3px;
+    background-color: linear-gradient(0deg, #32325D, #32325D),
+}
+
+
+
+.arrow_image {
+    width: 49px;
+    height: 49px;
+    top: 95px;
+    left: 47px;
+}
+
+.post_section {
+    position:absolute;
+    width: 771px;
+    height: 519px;
+    border-radius: 8px;
+    top: 79px;
+    left: 341px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.post_title_section {
+    position:absolute;
+    width: 122px;
+    height: 20px;
+    top: 334.21319580078125px;
+    left: 54.66748046875px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-family: inter;
+}
+
+.img_post_section {
+    position: absolute;
+    width: 771px;
+    height: 311.4px;
+
+}
+
+.text_section {
+    position: absolute;
+    width: 676.75px;
+    height: 124.33px;
+    top: 374.14px;
+    left: 54.67px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(87, 87, 87, 1);
+
+}
+
+.review_section {
+    position: relative;
+    width: 762px;
+    height: 321px;
+    top: 661px;
+    left: 342px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-family: Inter;
+    
+}
+
+.review_1 {
+    position: absolute;
+    width: 652px;
+    height: 60px;
+    top: 37px;
+    left: 54px; 
+}
+
+.review_2 {
+    position: absolute;
+    width: 652px;
+    height: 60px;
+    top: 124px;
+    left: 54px;
+}
+
+.review_3 {
+    position: absolute;
+    width: 652px;
+    height: 60px;
+    top: 226px;
+    left: 54px;
+
+}
+
+em {
+    color: blue;
+    font-weight: 600;
+    font-style: normal;
+}
