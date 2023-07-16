@@ -45,3 +45,16 @@ h1 {
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 1);
 }
+
+.body_title {
+    position: absolute;
+    width: 221px;
+    height: 20px; 
+    top: 167px; 
+    left: 79px; 
+    font-size: 36px; 
+    font-weight: 600;
+    line-height: 20px; 
+    letter-spacing: 0.1em; 
+    color: rgba(58, 79, 154, 1);
+  }
