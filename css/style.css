@@ -9,3 +9,18 @@ body{
     left: -756px;
     background: rgba(255, 255, 255, 1);
 }
+
+.header {
+    position: fixed;
+    width: 1512px;
+    /* height: 59px; */
+    display:flex; 
+    background-color: #32325D;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 79px 15px 79px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    z-index: 9999;
+}
