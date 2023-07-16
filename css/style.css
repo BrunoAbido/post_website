@@ -24,3 +24,24 @@ body{
     margin: 0;
     z-index: 9999;
 }
+
+.header img {
+    position: relative;
+    left: 79px;
+    width: 28px;
+    height: 28px;
+}
+
+h1 {
+    position: relative;
+    left: 80px;
+    text-transform: uppercase;
+    width: 66px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
