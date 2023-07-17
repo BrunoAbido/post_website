@@ -75,6 +75,11 @@ main {
     border-radius: 8px;
 }
 
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .card div {
     padding: 20px 30px;
 }
@@ -92,7 +97,7 @@ main {
     flex-direction: column;
 }
 
-.expend {
+.expand {
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
