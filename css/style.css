@@ -169,6 +169,7 @@ main {
     display: flex;
     flex-direction: column;
     padding-top: 22px;
+    padding-left: 55px;
     width: 100%;
     margin-bottom: 20;
     font-size: 20px;
@@ -186,7 +187,7 @@ main {
 .text_section {
     padding-bottom: 20px;
     padding-top: 20px;
-    padding-left: 60px;
+    padding-left: 55px;
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
