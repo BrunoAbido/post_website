@@ -1,5 +1,5 @@
 import { posts, comments } from './data';
-import { Post } from './data';
+import { Post , Comment } from './data';
 
 // criando um elemento de postagem no HTML
 function createPostElement(post: Post): HTMLElement {

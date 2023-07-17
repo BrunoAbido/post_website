@@ -48,5 +48,5 @@ type Post = {
     },
   ];
 
-  export { posts, comments, Post };
+  export { posts, comments, Post, Comment };
   
