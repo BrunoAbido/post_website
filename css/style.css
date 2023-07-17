@@ -27,18 +27,16 @@ body{
 
 .header img {
     position: relative;
-    left: 79px;
+    margin-left: 79px;
     width: 28px;
     height: 28px;
 }
 
 h1 {
     position: relative;
-    left: 80px;
     text-transform: uppercase;
     width: 66px;
     height: 29px;
-    font-family: Inter;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
