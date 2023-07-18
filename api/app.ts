@@ -1,56 +1,81 @@
-import { posts, comments } from './data';
-import { Post , Comment } from './data';
+interface PostCard {
+  id: number;
+  title: string;
+  img: string;
+  text: string;
+};
 
-// criando um elemento de postagem no HTML
-function createPostElement(post: Post): HTMLElement {
-  const postDiv = document.createElement('div');
-  postDiv.classList.add('card');
+function rendering (){
+  const posts: PostCard[] = [
+    {
+      id: 1,
+      title: 'The future',
+      img: 'images/post.png',
+      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
+    {
+      id: 2,
+      title: 'The future',
+      img: 'images/post.png',
+      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
+    {
+      id: 3,
+      title: 'The future',
+      img: 'images/post.png',
+      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
+    {
+      id: 4,
+      title: 'The future',
+      img: 'images/post.png',
+      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
+    {
+      id: 5,
+      title: 'The future',
+      img: 'images/post.png',
+      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
+    {
+      id: 6,
+      title: 'The future',
+      img: 'images/post.png',
+      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
+    {
+      id: 7,
+      title: 'The future',
+      img: 'images/post.png',
+      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
+  ];
+  const getdados = document.querySelector(".card_post")
+    if (getdados) {
+      getdados.innerHTML = "";
+      
 
-  const postLink = document.createElement('a');
-  postLink.href = `post_details.html?id=${post.id}`;
-  postLink.classList.add('link');
-
-  const postImage = document.createElement('img');
-  postImage.src = post.imageUrl;
-  postImage.classList.add('card_img');
-
-  const postElementsDiv = document.createElement('div');
-  postElementsDiv.classList.add('post_elements');
-
-  const postTitle = document.createElement('h3');
-  postTitle.classList.add('post_title');
-  postTitle.textContent = post.title;
-
-  const postText = document.createElement('p');
-  postText.classList.add('text_post');
-  postText.textContent = post.body;
-
-  const expandText = document.createElement('p');
-  expandText.classList.add('expand');
-  expandText.textContent = 'Expand...';
-
-  postElementsDiv.appendChild(postTitle);
-  postElementsDiv.appendChild(postText);
-  postElementsDiv.appendChild(expandText);
-
-  postLink.appendChild(postImage);
-  postLink.appendChild(postElementsDiv);
-
-  postDiv.appendChild(postLink);
-
-  return postDiv;
+      posts.map((postcard) => {
+        const postcardIten=document.createElement("div");
+        postcardIten.className="card";
+        postcardIten.innerHTML=`
+        <a href="post_details.html?id=${postcard.id}" class="link">
+        <img src="${postcard.img}" class="card_img"/>
+        <div class="post_elements">
+          <h3 class="post_title">${postcard.title}</h3>
+          <p class="text_post">
+            ${postcard.text}
+          </p>
+          <p class="expand">Expand...</p> 
+        </div>
+        </a> `;
+        getdados.appendChild(postcardIten);
+       
+      });
+    }
 }
 
-// Função para popular a seção de postagens no HTML
-function populatePostSection() {
-  const postSection = document.getElementById('postSection');
-  if (!postSection) return;
+rendering();
 
-  posts.forEach((post) => {
-    const postElement = createPostElement(post);
-    postSection.appendChild(postElement);
-  });
-}
 
-// Chama a função
-populatePostSection();
+

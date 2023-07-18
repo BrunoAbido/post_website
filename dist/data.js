@@ -4,14 +4,12 @@
 // //     imageUrl: string;
 // //     body: string;
 // //   };
-
 //   type Comment = {
 //     id: number;
 //     postId: number;
 //     email: string;
 //     body: string;
 //   };
-  
 //   // const posts: Post[] = [
 //   //   {
 //   //     id: 1,
@@ -26,7 +24,6 @@
 //   //     body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
 //   //   },
 //   // ];
-  
 //   const comments: Comment[] = [
 //     {
 //       id: 1,
@@ -47,6 +44,4 @@
 //       body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry from data',
 //     },
 //   ];
-
 //   module.exports = { posts, comments, Post, Comment };
-  
