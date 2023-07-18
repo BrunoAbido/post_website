@@ -1,6 +1,5 @@
 import { ComentUsers, Post, posts } from './data';
 
-
 function renderPostDetails() {
     const urlParametros = new URLSearchParams(window.location.search);
 
@@ -26,13 +25,9 @@ function renderPostDetails() {
     if (filterPostById && RenderDetails) {
         RenderDetails.innerHTML = `
                 <img src="../images/img_post_section.png" class="img_post_section">
-        
-
                     <h1>${filterPostById.title}</h1>
         
                     <p class="text_section">${filterPostById.body}</p>
-
-    
                 `;
         }
 
@@ -50,12 +45,8 @@ function renderPostDetails() {
             renderComents?.appendChild(listComent);
             renderComents?.appendChild(hr);
         });
-    
     }
-
 }
-
-
 
 renderPostDetails()
 

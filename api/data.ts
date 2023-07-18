@@ -182,41 +182,41 @@ export const posts: Post[] = [
         title: 'The future',
         img: 'images/post.png',
         body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
-      },
-      {
+    },
+    {
         id: 2,
         title: 'The future',
         img: 'images/post.png',
         body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
-      },
-      {
+    },
+    {
         id: 3,
         title: 'The future',
         img: 'images/post.png',
         body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
-      },
-      {
+    },
+    {
         id: 4,
         title: 'The future',
         img: 'images/post.png',
         body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
-      },
-      {
+    },
+    {
         id: 5,
         title: 'The future',
         img: 'images/post.png',
         body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
-      },
-      {
+    },
+    {
         id: 6,
         title: 'The future',
         img: 'images/post.png',
         body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
-      },
-      {
-      id: 7,
-      title: 'The future',
-      img: 'images/post.png',
-      body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
-      },
+    },
+    {
+    id: 7,
+    title: 'The future',
+    img: 'images/post.png',
+    body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took...'
+    },
     ];
