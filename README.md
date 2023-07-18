@@ -25,7 +25,8 @@ post_details.ts: script that manipulates the details page.
 How to Run the Project:
 
 Clone this repository to your computer.
-Open the index.html file in your preferred web browser.
+In your terminal go to the root folder of the project and run 'npm i' to install the dependencies.
+Run 'npm start' to start the server.
 
 Usage Instructions:
 
