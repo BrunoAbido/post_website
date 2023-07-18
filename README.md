@@ -15,16 +15,16 @@ TypeScript
 
 Project Structure:
 
-index.html: Main page that displays the list of posts.
-post_details.html: Details page of a specific post with its comments.
-styles.css: CSS file with the styling of the application.
-data.ts: File containing simulated data of the posts and comments.
-app.ts: script that manipulates the main page.
-post_details.ts: script that manipulates the details page.
+index.html: Main page that displays the list of posts. 
+post_details.html: Details page of a specific post with its comments. 
+styles.css: CSS file with the styling of the application. 
+data.ts: File containing simulated data of the posts and comments. 
+app.ts: script that manipulates the main page. 
+post_details.ts: script that manipulates the details page. 
 
 How to Run the Project:
 
-Clone this repository to your computer.
+Clone this repository on your computer.
 In your terminal go to the root folder of the project and run 'npm i' to install the dependencies.
 Run 'npm start' to start the server.
 
